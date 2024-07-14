@@ -22,7 +22,8 @@ public class Base {
 		System.out.println("Driver value is "+driver);
 		
 		System.out.println("LOG:INFO - Browser and Application up and running ");
-
+		
+		System.out.println("Hello");
 
 	}
 	
