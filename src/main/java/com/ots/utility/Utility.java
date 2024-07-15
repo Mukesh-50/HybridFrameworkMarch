@@ -23,6 +23,12 @@ import com.ots.dataprovider.ConfigReader;
 public class Utility 
 {
 
+	public void dismissAlert(WebDriver driver)
+	{
+		driver.switchTo().alert().dismiss();
+	}
+	
+	
 	public static String getTextAndAcceptAlert(WebDriver driver)
 	{
 		
