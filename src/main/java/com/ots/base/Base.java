@@ -15,14 +15,15 @@ public class Base {
 	public void setup()
 	{
     
-		System.out.println("LOG:INFO - Starting Browser - Running Before Method ");
+		System.out.println("New Sample Code For Merge Conflict");
 		
-		System.out.println("LOG:INFO - Starting Browser - Running Before Suite ");
-    
+		System.out.println("LOG:INFO - Starting Browser - Running Before Method ");
+
 		driver=BrowserFactory.startBrowser(ConfigReader.getProperty("browserName"), ConfigReader.getProperty("appURLQA")+"/login");
     		
 		System.out.println("LOG:INFO - Browser and Application up and running ");
 		
+		System.out.println("Browser details");
 
 	}
 	
