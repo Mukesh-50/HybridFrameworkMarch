@@ -16,6 +16,8 @@ public class Base {
 	{
     
 		System.out.println("LOG:INFO - Starting Browser - Running Before Method ");
+		
+		System.out.println("LOG:INFO - Starting Browser - Running Before Suite ");
     
 		driver=BrowserFactory.startBrowser(ConfigReader.getProperty("browserName"), ConfigReader.getProperty("appURLQA")+"/login");
     		
