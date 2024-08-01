@@ -1,17 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-09T08:44:58 IST" name="Suite" finished-at="2024-07-09T08:44:58 IST" duration-ms="16">
+  <suite started-at="2024-07-24T15:40:51 EDT" name="Suite" finished-at="2024-07-24T15:41:09 EDT" duration-ms="18338">
     <groups>
     </groups>
-    <test started-at="2024-07-09T08:44:58 IST" name="Test" finished-at="2024-07-09T08:44:58 IST" duration-ms="16">
-      <class name="com.ots.testcases.Sample">
-        <test-method signature="test1()[pri:0, instance:com.ots.testcases.Sample@543588e6]" started-at="2024-07-09T08:44:58 IST" name="test1" finished-at="2024-07-09T08:44:58 IST" duration-ms="1" status="PASS">
+    <test started-at="2024-07-24T15:40:51 EDT" name="Test" finished-at="2024-07-24T15:41:09 EDT" duration-ms="18338">
+      <class name="com.ots.testcases.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:40:52 EDT" name="setup" finished-at="2024-07-24T15:41:00 EDT" duration-ms="7540" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-      </class> <!-- com.ots.testcases.Sample -->
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:41:00 EDT" name="validLogin" data-provider="loginTestData" finished-at="2024-07-24T15:41:05 EDT" duration-ms="4847" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@email.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:41:05 EDT" name="tearDown" finished-at="2024-07-24T15:41:05 EDT" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:41:05 EDT" name="setup" finished-at="2024-07-24T15:41:09 EDT" duration-ms="3667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNewUserLink()[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:41:09 EDT" name="verifyNewUserLink" finished-at="2024-07-24T15:41:09 EDT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewUserLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ots.testcases.LoginTest@7161d8d1]" started-at="2024-07-24T15:41:09 EDT" name="tearDown" finished-at="2024-07-24T15:41:09 EDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ots.testcases.LoginTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
